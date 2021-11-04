@@ -90,3 +90,9 @@ Pycharm --> Preferences ---> project ---> interpreter --> 找到你的环境环�
     "database.port": 27017,
     "database.authentication_source": "admin"
 }
+
+安装 ta-lib
+> brew install ta-lib   pip install ta-lib 
+安装  aiohttp
+> pip install
+
