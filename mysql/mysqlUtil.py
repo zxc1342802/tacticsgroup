@@ -4,14 +4,14 @@ import math
 
 # 连接到MySQL数据库
 connection = pymysql.connect(
-    host='39.105.107.3',
-    user='root',
-    password='root@dhsfgie1430',
+    host='101.132.157.104',
+    user='zkgj_platform',
+    password='nNEGYy3KxK5XRch2',
     database='zkgj_platform'
 )
 
 # 读取Excel文件
-df = pd.read_excel('/Users/leijm/Documents/问答库导入109新.xlsx')
+df = pd.read_excel('/Users/leijm/Downloads/sssss1123123.xlsx')
 
 # 遍历每行数据
 for index, row in df.iterrows():

@@ -1,0 +1,39 @@
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+*.class
+target/
+out
+gen
+/.idea/
+.classpath
+.settings
+.project
+.build
+.idea
+.vscode/
+
+*.class
+*.DS_Store
+*.lock
+*.swp
+*.eml
+*.iml
+
+target
+bin
+
+*.cache
+
+*.log
+*.log.*
+
+*.pyc
+*.project
+.springBeans
+test-output
+*.factorypath
+*.cld
