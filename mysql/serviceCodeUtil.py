@@ -24,7 +24,7 @@ try:
     result = cursor.fetchall()
     #
     # # 提取 sub_service_code 并转为列表
-    sub_service_codes = [row[0] for row in result]
+    sub_service_codes = ['SchoolsAFT']
     for sub_service_code in sub_service_codes:
         # 更新 weight
         try:
